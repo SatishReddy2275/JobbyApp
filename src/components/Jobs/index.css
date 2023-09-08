@@ -1,0 +1,143 @@
+.profiles-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  height: 80px;
+  width: 80px;
+}
+.profile-name {
+  color: #6366f1;
+  font-size: 30px;
+}
+.profile-para {
+  color: #64748b;
+  font-size: 19px;
+}
+
+.side-container {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-top: 20px;
+  margin-right: 70px;
+}
+
+.all-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #121212;
+  padding: 50px;
+  width: 100vw;
+}
+
+.ul-jobItem {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.job-container {
+  width: 60vw;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  border: 1px solid white;
+}
+.search-input {
+  outline: none;
+  width: 30vw;
+  height: 40px;
+  padding-left: 10px;
+
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid grey;
+  margin-bottom: 50px;
+  border-right: none;
+}
+.find {
+  color: white;
+  background-color: #272727;
+}
+
+.search-buttu {
+  height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 39px;
+  cursor: pointer;
+  border-left: none;
+  border: 2px solid grey;
+  background-color: #202020;
+}
+
+.text {
+  color: white;
+  margin-bottom: 30px;
+}
+.checkBox-container {
+  list-style-type: none;
+}
+
+.li-container {
+  margin-bottom: 30px;
+}
+
+.input {
+  margin-right: 15px;
+  width: 30px;
+  height: 15px;
+}
+
+.radio {
+  width: 35px;
+  height: 18px;
+  margin-right: 15px;
+}
+
+.failure-button {
+  color: #0b69ff;
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+.noJob-img {
+  height: 40vh;
+  width: 30vw;
+  margin-bottom: 30px;
+}
+
+.noJob-head {
+  color: white;
+  font-size: 35px;
+}
+
+.noJob-para {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.noJob-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
